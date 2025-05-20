@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+header a button {
+    background-color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#gora,#aha,#kontakt,#prywata {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+#gora img:hover {
+    transform: scale(1.05);
+    border-color: #666;
+}
+#prywata {
+    font-family: 'Fredoka One', sans-serif;
+    color: red;
+}
+footer {
+    background-color: #333;
+  color: rgb(245, 8, 8);
+  text-align: center;
+  padding: 40px;
+  border-top: 2px solid #555;
+}
